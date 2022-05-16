@@ -1,0 +1,51 @@
+.nav    {
+    width: auto;
+    height: auto;
+
+    position: fixed;
+    left: 1vw;
+    top: 50vh;
+}
+
+.nav li {
+    margin-bottom:5vh;
+}
+
+.nav a  {
+    background: #000000ca;
+    color: #fff;
+
+    font-size: 2rem;
+
+    padding: 2vh;
+    margin-left: .5rem;
+    border-radius: .5vh 1.5vh;
+
+    visibility: hidden;
+}
+
+
+
+
+.nav li:hover a {
+    visibility: visible;
+}
+
+.nav li a:before {
+    background: #000000ca;
+    content: "";
+
+    float: left;
+
+    width: 3vw;
+    height: 3vw;
+
+    border-radius: 100px;
+
+    visibility: visible;
+}
+
+
+@media screen and (orientation: portrait) {
+    .nav    {display: none;}
+}

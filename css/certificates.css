@@ -1,0 +1,33 @@
+
+
+.certificates   {
+    background: linear-gradient(purple, orange);
+
+    width: 90vw;
+    padding: 5vh 5vw;
+    border: red 5px dotted;
+    margin-inline: auto;
+}
+
+.certificates h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.certificates .images{
+    display: flex;
+    flex-flow: wrap;
+    row-gap: max(3rem);
+    justify-content: space-between;
+
+}
+
+
+.certificates img {
+    background: red;
+
+    max-width: 20rem;
+
+}

@@ -1,0 +1,60 @@
+@import url(work.css);
+@import url(certificates.css);
+
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Css Reset */
+*   {
+    list-style: none;
+    text-decoration: none;
+    gap: 0;
+
+    width: auto;
+    height: auto;
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.body   {
+    background: #b7b7b7;
+
+    font-family: roboto;
+}
+
+header  {
+    background: url(../img/20210701_184204.jpg) no-repeat center;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+h1  {
+    background: rgba(123, 123, 123, 0.418);
+    color: #fff;
+
+    font-size: 3rem;
+    
+    position: absolute;
+    left: 3vw;
+    top: 10vh;
+
+    padding: 3vw;
+    border-radius: .2vh;
+}
+
+h2    {
+    font-size: 3rem;
+}
+
+h3    {
+    font-size: 2rem;
+}
+
+h4    {
+    font-size: 1rem;
+}

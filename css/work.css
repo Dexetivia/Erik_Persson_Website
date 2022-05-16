@@ -1,0 +1,28 @@
+
+.work   {
+    width: 50vw;
+    margin-inline: auto;
+}
+
+.work h2    {
+    display: flex;
+    justify-content: center;
+
+    margin: 10vh 0;
+}
+
+
+.professions    {
+    margin-bottom: 10vh;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 10%;
+}
+
+
+.professions img    {
+    width: 10rem;
+
+    margin-left: auto;
+
+}

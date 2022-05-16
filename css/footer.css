@@ -1,0 +1,56 @@
+footer  {
+    background: #282727;
+    color: #fff;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 2vh 5vw 5vh 5vw;
+}
+
+footer div  {
+    font-size: 2rem;
+    padding: 2vw;
+}
+
+footer h2   {
+    text-decoration: underline;
+
+    margin-bottom: 1.5vh;
+}
+
+footer li   {
+    margin-bottom: 2%;
+}
+
+footer img {
+    height: 2rem;
+    background: #fff;
+}
+
+
+
+
+/* To  make icons go in same line as text */
+footer li *   {
+    display: inline;
+}
+
+
+@media screen and (orientation: portrait) {
+
+    footer  {
+        justify-content: center;
+    }
+
+    footer div  {
+        font-size: 3.5vw;
+    
+        padding: 2vw;
+    }
+
+    footer img  {
+        height: 3.5vw;
+    }
+}
