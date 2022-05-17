@@ -5,29 +5,25 @@
 
     width: 90vw;
     padding: 5vh 5vw;
-    border: red 5px dotted;
-    margin-inline: auto;
+
 }
 
 .certificates h2{
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 
 
 .certificates .images{
-    display: flex;
-    flex-flow: wrap;
-    row-gap: max(3rem);
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%
 
 }
 
 
 .certificates img {
-    background: red;
-
-    max-width: 20rem;
-
+    width: 100%;
 }
