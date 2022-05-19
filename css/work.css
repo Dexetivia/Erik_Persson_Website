@@ -2,21 +2,20 @@
 .work   {
     width: 50vw;
     margin-inline: auto;
-}
-
-.work h2    {
-    display: flex;
-    justify-content: center;
-
-    margin: 10vh 0;
+    margin-bottom: 10rem;
 }
 
 
 .professions    {
-    margin-bottom: 10vh;
     display: grid;
     grid-template-columns: 40% 50%;
     grid-gap: 10%;
+
+    margin-bottom: 10vh;
+}
+
+.professions:last-child    {
+    margin-bottom: 0vh;
 }
 
 

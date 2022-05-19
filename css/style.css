@@ -1,8 +1,10 @@
 @import url(work.css);
 @import url(certificates.css);
+@import url(interests.css);
 
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 /* Css Reset */
 *   {
@@ -29,6 +31,7 @@
 header  {
     background: url(../img/20210701_184204.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 
     height: 100vh;
 }
@@ -49,6 +52,11 @@ h1  {
 
 h2    {
     font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 3rem 0 6rem 0;
 }
 
 h3    {
@@ -57,4 +65,17 @@ h3    {
 
 h4    {
     font-size: 1rem;
+}
+
+h2::after, h2::before {
+    background: rgb(0, 0, 0);
+    content: "";
+    
+    position: relative;
+    top:1.8rem;
+
+    width: 0rem;
+    height: .2rem;
+    padding-inline: 3rem;
+    margin-inline: 1.5rem;
 }

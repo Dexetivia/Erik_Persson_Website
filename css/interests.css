@@ -1,0 +1,66 @@
+
+.interests .blocks {
+    font-family: Koulen;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(14rem, auto);
+    gap: 5vw;
+
+    width: 80vw;
+    margin-inline:auto;
+    margin-bottom: 10vh;
+}
+
+/*  To place text at correct place in div   */
+.blocks > *{
+    transition: all .15s linear 0s;
+    position: relative;
+}
+
+.blocks p{
+    color: #fff;
+
+    font-size: 2rem;
+
+    position: absolute;
+    bottom: 0rem;
+}
+
+.PLACEHOLDER p, .programming p  {
+    left: .5rem;
+}
+
+.running p  {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.running    {
+    background: url(../img/running.png) no-repeat center, #a3dde1;
+    background-size: cover;
+    grid-row: 1/3;
+    grid-column: 1;
+}
+
+.PLACEHOLDER    {
+    background: url(https://images.unsplash.com/photo-1468164016595-6108e4c60c8b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=5000) no-repeat center, #a3dde1;
+    background-size: cover ;
+}
+
+.programming    {
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500) no-repeat center, #a3dde1;
+    background-size: cover;
+    grid-column: 2;
+}
+
+
+/*  Hover animation */
+.blocks > *:hover   {
+    transition: all .15s linear 0s;
+    transform: scale(1.05);
+    transform-origin: center;
+
+}
