@@ -9,19 +9,56 @@
 .professions    {
     display: grid;
     grid-template-columns: 40% 50%;
-    grid-gap: 10%;
+    grid-auto-rows: max-content;
+    grid-column-gap: 10%;
 
-    margin-bottom: 10vh;
-}
-
-.professions:last-child    {
-    margin-bottom: 0vh;
+    margin-bottom: 13vh;
 }
 
 
 .professions img    {
+    grid-row: 1/4;
+
     width: 10rem;
-
     margin-left: auto;
+}
 
+.professions h4, .professions p{
+    grid-column: 2;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .work   {
+        width: 80vw;
+    }
+    .professions    {
+        grid-template-columns: 60% 40%;
+        grid-auto-rows:auto;
+        gap:0;
+    }
+
+    .professions img    {
+        grid-column: 2;
+        grid-row: 1/3;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .professions h3    {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .professions h4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .professions p  {
+        grid-column: 1/3;
+        grid-row: 3;
+    }
 }

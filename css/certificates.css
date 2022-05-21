@@ -20,3 +20,10 @@
 .certificates img {
     width: 100%;
 }
+
+
+.certificates img:hover{
+    transform: scale(1.2);
+    transform-origin: top;
+    
+}
