@@ -29,7 +29,7 @@
 }
 
 .music p, .programming p  {
-    left: .5rem;
+    left: 4%;
 }
 
 .running p  {
@@ -68,11 +68,4 @@
     transform: scale(1.05);
     transform-origin: center;
 
-}
-
-
-@media screen and (max-device-width: 400px) {
-    .blocks p   {
-        font-size: .75rem;
-    }
 }
