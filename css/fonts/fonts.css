@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: "Bebas_Neue";
+    src: url('Bebas_neue/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('Bebas_neue/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ibm_plex_monolight';
+    src: url('IBM_Plex_Mono/ibmplexmono-light-webfont.woff2') format('woff2'),
+         url('IBM_Plex_Mono/ibmplexmono-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "koulen";
+    src: url('Koulen/koulen-regular-webfont.woff2') format('woff2'),
+         url('Koulen/koulen-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('Roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

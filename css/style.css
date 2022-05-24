@@ -1,7 +1,12 @@
 @import url(work.css);
-@import url(certificates.css);
+@import url(education.css);
+@import url(merit.css);
 @import url(interests.css);
 @import url(footer.css);
+
+
+@import url(standard.css);
+@import url(fonts/fonts.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
@@ -40,7 +45,7 @@ header  {
 }
 
 h1  {
-    background: rgba(123, 123, 123, 0.418);
+    background: rgba(123, 123, 123, 0.54);
     color: #fff;
 
     font-size: 3rem;
@@ -50,35 +55,14 @@ h1  {
     top: 10vh;
 
     padding: 3vw;
-    border-radius: .2vh;
+    border-radius: .5vh;
 }
 
-h2    {
-    font-size: 2.5rem;
-    text-transform: uppercase;
 
-    display: flex;
-    justify-content: center;
 
-    margin: 3rem 0 6rem 0;
-}
 
-h3    {
-    font-size: 2rem;
-}
-
-h4    {
-    font-size: 1rem;
-}
-
-h2::after, h2::before {
-    background: rgb(0, 0, 0);
-    content: "";
-    
-    position: relative;
-    top:1.2rem;
-
-    width: 4rem;
-    height: .2rem;
-    margin-inline: 1.5rem;
+@media screen  and (max-width:1000px) {
+    html    {
+        font-size: 12px;
+    }
 }

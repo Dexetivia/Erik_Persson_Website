@@ -1,0 +1,32 @@
+
+.merit  {
+    background: url(https://images.unsplash.com/photo-1508739773434-c26b3d09e071?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=5000) no-repeat center, #a3dde1;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+    width: 90vw;
+    padding: 3rem 5vw 3rem 5vw ;
+}
+
+
+ .merit h2::before, .merit h2::after {
+    background: rgb(255, 255, 255);
+}
+
+
+.merit ul   {
+    font-family: "Bebas_Neue";
+    font-size: 2rem;
+    text-align: center;
+
+    width: max-content;
+    margin-inline: auto;
+}
+
+
+.merit li   {
+    list-style: "✓";
+    list-style-position: inside;
+}

@@ -1,0 +1,51 @@
+
+
+
+h2    {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 3rem 0 6rem 0;
+}
+
+h2::after, h2::before {
+    background: rgb(0, 0, 0);
+    content: "";
+    
+    position: relative;
+    top:1.2rem;
+
+    width: 4rem;
+    height: .2rem;
+    margin-inline: 1.5rem;
+}
+
+h3    {
+    font-size: 2rem;
+}
+
+h4    {
+    font-size: 1rem;
+}
+
+
+
+/*  LIST    
+ul ul   {
+    margin-left: 2rem;
+}
+
+ul > li {
+    list-style-type: disc;
+
+    margin-left: 1.5rem;
+}
+
+ul > li > ul > li   {
+    list-style-type: circle;
+}
+*/
