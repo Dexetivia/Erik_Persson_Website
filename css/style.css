@@ -63,6 +63,10 @@ h1  {
 
 @media screen  and (max-width:1000px) {
     html    {
-        font-size: 12px;
+        font-size: max(1.2vh)
+    }
+
+    h2::after, h2::before   {
+        display: none;
     }
 }

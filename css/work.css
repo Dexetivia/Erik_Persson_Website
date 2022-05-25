@@ -1,5 +1,6 @@
 
 .work   {
+    width: 100%;
     margin-bottom: 10rem;
 }
 
@@ -30,10 +31,9 @@
 
 
 @media screen and (max-width: 500px) {
-    .work   {
-        width: 80vw;
-    }
+
     .professions    {
+        width: 80vw;
         grid-template-columns: min-content auto;
         grid-template-rows: 3rem 2rem auto;
         gap:0;

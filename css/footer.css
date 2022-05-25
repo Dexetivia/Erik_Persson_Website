@@ -5,7 +5,6 @@ footer  {
     font-family: "IBM Plex Mono";
 
     padding: 1rem;
-    padding-bottom: 5rem;
 }
 
 footer *    {
@@ -24,6 +23,12 @@ footer *    {
 
 footer img  {   
     height: 2rem;
+}
+
+
+.contact    {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
 }
 
 footer h3   {
