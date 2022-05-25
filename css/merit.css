@@ -6,10 +6,13 @@
     color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
-    width: 90vw;
-    padding: 3rem 5vw 3rem 5vw ;
+    width: 100%;
+    padding: 3rem 0 3rem 0;
 }
 
+.merit *    {
+    color: #fff;
+}
 
  .merit h2::before, .merit h2::after {
     background: rgb(255, 255, 255);

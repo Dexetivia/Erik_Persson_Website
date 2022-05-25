@@ -1,7 +1,5 @@
 
 .work   {
-    width: 50vw;
-    margin-inline: auto;
     margin-bottom: 10rem;
 }
 
@@ -12,6 +10,8 @@
     grid-auto-rows: max-content;
     grid-column-gap: 10%;
 
+    width: 50vw;
+    margin-inline: auto;
     margin-bottom: 13vh;
 }
 
