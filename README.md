@@ -6,6 +6,4 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ErikPersson2003/Erik_Persson_Website?style=flat-square)
 
 
-
-
 *_0884*
