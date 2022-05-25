@@ -5,6 +5,8 @@
          url('Bebas_neue/bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-display: swap;
 }
 
 
@@ -14,6 +16,8 @@
          url('IBM_Plex_Mono/ibmplexmono-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-display: swap;
 }
 
 
@@ -23,6 +27,8 @@
          url('Koulen/koulen-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    
+    font-display: swap;
 }
 
 
@@ -32,4 +38,6 @@
          url('Roboto/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-display: swap;
 }
